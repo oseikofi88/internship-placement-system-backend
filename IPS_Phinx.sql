@@ -109,21 +109,7 @@ CREATE TABLE `coordinator` (
   `email` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Dumping data for table `coordinator`
---
 
-INSERT INTO `coordinator` (`user_id`, `email`) VALUES
-(2, 'akowuahjoe@yahoo.co.uk'),
-(3, 'afotey_benjamin@hotmail.com'),
-(4, 'dayackom.coe@knust.edu.gh'),
-(5, 'obengatuah@yahoo.co.uk'),
-(6, 'kwame.agyekum@ymail.com'),
-(7, 'adamsglobal@gmail.com'),
-(8, 'ekarthur.coe@knust.edu.gh'),
-(9, 'aaacheampong.coe@knust.edu.gh'),
-(10, 'ssrgidigasu@yahoo.com'),
-(11, 'eaowusu328@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -425,22 +411,7 @@ CREATE TABLE `user` (
   `updated_at` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Dumping data for table `user`
---
 
-INSERT INTO `user` (`id`, `user_type_id`, `password`, `created_at`, `updated_at`) VALUES
-(1, 4, '$2y$10$R/7zEhXE0YS8ZODZP/MOXeH5wLZ2rmIToOR2dh2h5GDWU9mDTbe3S', '2018-02-15 15:07:22', '0000-00-00 00:00:00'),
-(2, 3, '$2y$10$EIMqk7VEWzrsrQX7PMa/XuSpdVBTYiCOIGCrJllUDj1oekJpNEgv2', '2018-02-15 15:07:22', '0000-00-00 00:00:00'),
-(3, 3, '$2y$10$MwhIrBZsOPZRhaGzQVs9KuM7qKU92ZgFbrUOm9IIlbx7hvs/5rzkW', '2018-02-15 15:07:22', '0000-00-00 00:00:00'),
-(4, 3, '$2y$10$4kKgk6jF.zUNjO.6.S8acexfHcFPW2v9MtwZdC8eaXMTcEOrg48l6', '2018-02-15 15:07:22', '0000-00-00 00:00:00'),
-(5, 3, '$2y$10$YFp5CvG4bsEmV0BvBbEFhOt3L019sL3WjIcGAueUCzks0gf1hZQ52', '2018-02-15 15:07:22', '0000-00-00 00:00:00'),
-(6, 3, '$2y$10$vBRYXDTDT4WNbtF7653ICu4MSv77bRorLm7tNdsuy06Ic6IHLe4Ye', '2018-02-15 15:07:22', '0000-00-00 00:00:00'),
-(7, 3, '$2y$10$E82H359P2kz/BLsrh39zJuUKM0g3oA4O7BxfsW/ZCQkXoemJGSURy', '2018-02-15 15:07:22', '0000-00-00 00:00:00'),
-(8, 3, '$2y$10$p3unEmO3HpNjEAknZyNZFuTWaZ1X.dWYeZ0GQFpWrqoiav8h4dtIe', '2018-02-15 15:07:23', '0000-00-00 00:00:00'),
-(9, 3, '$2y$10$/uKmi4xOrVrHDw8SN5Yt4Oj.KFFgiRwNaq2NxQezQQRVySYwsU9ee', '2018-02-15 15:07:23', '0000-00-00 00:00:00'),
-(10, 3, '$2y$10$Z75XYPFtM6.jpXp3uKm.Cejmc5wRCR/dFoJ.qQByfIe5XnSJXy1fu', '2018-02-15 15:07:23', '0000-00-00 00:00:00'),
-(11, 3, '$2y$10$4PIBBr5YiIEeck//loGhce5TmByu7vOc6lPKt8douE3xHxymmlPFe', '2018-02-15 15:07:23', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
